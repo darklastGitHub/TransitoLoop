@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "miconexion": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "transitodb",
+    "password": "",
+    "name": "miconexion",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
