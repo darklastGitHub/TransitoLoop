@@ -1,38 +1,130 @@
 {
-  "_meta": {
-    "sources": [
-      "loopback/common/models",
-      "loopback/server/models",
-      "../common/models",
-      "./models"
-    ],
-    "mixins": [
-      "loopback/common/mixins",
-      "loopback/server/mixins",
-      "../common/mixins",
-      "./mixins"
-    ]
-  },
-  "User": {
-    "dataSource": "miconexion"
-  },
-  "AccessToken": {
-    "dataSource": "miconexion",
-    "public": false
-  },
-  "ACL": {
-    "dataSource": "miconexion",
-    "public": false
-  },
-  "RoleMapping": {
-    "dataSource": "miconexion",
-    "public": false,
-    "options": {
-      "strictObjectIDCoercion": true
-    }
-  },
-  "Role": {
-    "dataSource": "miconexion",
-    "public": false
-  }
+	"_meta": {
+		"sources": [
+			"loopback/common/models",
+			"loopback/server/models",
+			"../common/models",
+			"./models"
+		],
+		"mixins": [
+			"loopback/common/mixins",
+			"loopback/server/mixins",
+			"../common/mixins",
+			"./mixins"
+		]
+	},
+	"User": {
+		"dataSource": "miconexion"
+	},
+	"AccessToken": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"ACL": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"RoleMapping": {
+		"dataSource": "miconexion",
+		"public": true,
+		"options": {
+			"strictObjectIDCoercion": true
+		}
+	},
+	"Role": {
+		"dataSource": "miconexion",
+		"public": false
+	},
+	"Accesstoken": {
+		"dataSource": "miconexion",
+		"public": false
+	},
+	"Acl": {
+		"dataSource": "miconexion",
+		"public": false
+	},
+	"Agentetransito": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Categoriavehiculo": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Comuna": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Departamento": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Domicilio": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Estadoinfraccion": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Estadomulta": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Genero": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Infraccion": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Marca": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Matriculavahiculo": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Modelo": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Multa": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Municipio": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Normainfraccion": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Normatransito": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Persona": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Personamatriculavehiculo": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Rolemapping": {
+		"dataSource": "miconexion",
+		"public": false
+	},
+	"Unidadtrafico": {
+		"dataSource": "miconexion",
+		"public": true
+	},
+	"Vehiculo": {
+		"dataSource": "miconexion",
+		"public": true
+	}
 }

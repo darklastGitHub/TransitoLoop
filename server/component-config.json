@@ -2,5 +2,17 @@
   "loopback-component-explorer": {
     "mountPath": "/transito",
     "generateOperationScopedModels": true
+  },
+  "loopback-component-auto-migrate": {
+    "enabled": false,
+    "raiseError": false,
+    "migration": "auto-migrate-data",
+    "models": [
+      "Role",
+      "RoleMapping",
+      "ACL",
+      "AccessToken"
+    ],
+    "fixtures": "./test/fixtures/"
   }
 }

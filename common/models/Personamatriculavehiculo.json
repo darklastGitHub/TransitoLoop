@@ -1,0 +1,81 @@
+{
+	"name": "Personamatriculavehiculo",
+	"properties": {
+		"idmatriculavehiculo": {
+			"type": "number",
+			"required": true,
+			"length": null,
+			"precision": 10,
+			"scale": 0,
+			"mysql": {
+				"columnName": "idMatriculaVehiculo",
+				"dataType": "int",
+				"dataLength": null,
+				"dataPrecision": 10,
+				"dataScale": 0,
+				"nullable": "N"
+			}
+		},
+		"numerodocumento": {
+			"type": "number",
+			"required": true,
+			"length": null,
+			"precision": 10,
+			"scale": 0,
+			"mysql": {
+				"columnName": "numeroDocumento",
+				"dataType": "int",
+				"dataLength": null,
+				"dataPrecision": 10,
+				"dataScale": 0,
+				"nullable": "N"
+			}
+		},
+		"fechainicio": {
+			"type": "date",
+			"required": true,
+			"length": null,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "fechaInicio",
+				"dataType": "datetime",
+				"dataLength": null,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "N"
+			}
+		},
+		"fechafin": {
+			"type": "date",
+			"required": false,
+			"length": null,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "fechaFin",
+				"dataType": "datetime",
+				"dataLength": null,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"id": {
+			"type": "number",
+			"id": 1,
+			"generated": true,
+			"updateOnly": true
+		}
+	},
+	"settings": {
+		"strict": false,
+		"forceId": "auto",
+		"replaceOnPUT": true,
+		"idInjection": false,
+		"mysql": {
+			"schema": "transito",
+			"table": "personamatriculavehiculo"
+		}
+	}
+}
